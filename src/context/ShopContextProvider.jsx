@@ -10,6 +10,7 @@ const ShopContextProvider = (props) => {
   const [search, setSearch] = useState("");
   const [showSearch, setShowSearch] = useState(false);
   const [cartItems, setCartItems] = useState({});
+  const [paymentMethod, setPaymentMethod] = useState("COD");
 
   const addToCart = (itemId, size) => {
     if (!size) {
@@ -117,7 +118,9 @@ const getSubtotal = () => {
     addToCart,
     getCartCount,
     removeFromCart,
-    getSubtotal
+    getSubtotal,
+    paymentMethod,
+setPaymentMethod,
   };
 
   return (

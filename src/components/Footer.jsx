@@ -8,8 +8,8 @@ const Footer = () => {
       <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
 
         <div>
-          <img src={assets.logo} className='mb-0 w-45' alt="" />
-          <p className='w-full md:w-2/3 text-gray-600'>
+          <img src={assets.logo} className='mb-0 w-32 sm:w-40' alt="" />
+          <p className='w-full sm:w-2/3 text-gray-600'>
             We are a fashion e-commerce store dedicated to providing the latest trends and styles to our customers. Our mission is to offer high-quality products at affordable prices, while delivering exceptional customer service. We believe that fashion should be accessible to everyone, and we strive to create a seamless shopping experience for our customers.
           </p>
         </div>
